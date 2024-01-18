@@ -74,10 +74,6 @@
                     <label for="title">harga</label>
                     <input type="text" class="form-control" id="harga" name="harga" required>
                 </div>
-                <div class="form-group" action="/upload" method="post" enctype="multipart/form-data">
-                    <label for="cover">Link Photo Produk</label>
-                    <input type="text" id="image" name="image" accept="link">
-                </div>
                 <div class="form-group">
                     <label for="content">Deskripsi</label>
                     <input type="text" id="deskripsi" name="content"></textarea>
